@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Games.GG — Roblox developer and programmer. Lua, Python, game systems, UI, monetization." />
+  <title>Games.GG — Roblox Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#top" class="brand">Games.GG</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#accomplishments">Accomplishments</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Games.GG</h1>
+        <p class="tagline">Roblox Developer &bull; Lua &amp; Python Programmer</p>
+        <div class="hero-cta">
+          <a href="#works" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-grid">
+          <div class="about-photo" aria-hidden="true">
+            <div class="avatar-placeholder">GG</div>
+          </div>
+          <div class="about-text">
+            <p>
+              Hello! I'm Games.GG, your friendly developer that will turn your idea
+              into a reality. I wanted to develop on Roblox because of a passion for
+              game development and programming, however I didn't start on Roblox.
+              For most of my beginner years I started developing on a game called
+              Rec Room — it's like Roblox but a lot easier to create good quality
+              games. It was really fun for a while but as I got more advanced I
+              wanted something more challenging, so I went to Roblox.
+            </p>
+            <p>
+              Now I'm at the point where I can fluently code in Lua, and I can also
+              code in Python. I speak English and Spanish, and I'm 15.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <p class="section-lead">3+ years of Roblox development experience.</p>
+
+        <ul class="skills">
+          <li>Lua</li>
+          <li>Python</li>
+          <li>Java <span class="skill-note">(learning)</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Works / Video Gallery -->
+    <section id="works" class="section">
+      <div class="container">
+        <h2>Works</h2>
+        <p class="section-lead">Videos of systems, games, and projects I've built.</p>
+
+        <!-- Videos render here automatically from the `videos` array in script.js -->
+        <div class="video-gallery" id="videoGallery"></div>
+
+        <p class="works-extra">
+          Also see:
+          <a href="https://docs.google.com/presentation/d/1EI8Bf5gzwVagO2NEhAhyJdkec3xG72kA9yET03D_1vk/edit?usp=sharing" target="_blank" rel="noopener">Proof of Work slides</a>
+          &middot;
+          <a href="https://www.roblox.com/users/1212436866/profile" target="_blank" rel="noopener">Roblox profile</a>
+          &middot;
+          <a href="https://github.com/GamesGG0" target="_blank" rel="noopener">GitHub</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Accomplishments -->
+    <section id="accomplishments" class="section section-alt">
+      <div class="container">
+        <h2>Accomplishments</h2>
+
+        <div class="accomp-grid">
+          <div class="accomp-card">
+            <h3>Academic</h3>
+            <ul>
+              <li>Winner — 2023 VEX Robotics Championships</li>
+              <li>AP Computer Science Principles — Score of 3 (freshman year)</li>
+            </ul>
+          </div>
+
+          <div class="accomp-card">
+            <h3>Community</h3>
+            <ul>
+              <li>Scripter Rank 2 in RSC (Roblox Studio Community)</li>
+              <li>Active Developer badge on Discord</li>
+              <li>RIA scam investigator</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section">
+      <div class="container">
+        <h2>Pricing</h2>
+        <p class="section-lead">Fair and flexible — built for serious projects.</p>
+
+        <div class="pricing-card">
+          <div class="price">
+            <span class="price-amount">$15</span>
+            <span class="price-or">/ hour</span>
+            <span class="price-suffix">USD &mdash; or equivalent in Robux</span>
+          </div>
+          <ul class="pricing-list">
+            <li><strong>1 hour minimum</strong> on all jobs.</li>
+            <li><strong>Estimate given upfront</strong> before any work starts &mdash; no surprise bills.</li>
+            <li><strong>No percentage taken</strong> unless the project shows real potential and stable CCU.</li>
+            <li>Additional fee may apply for disorganized or messy existing code structure.</li>
+            <li>Pricing scales with project scope &mdash; message me on Discord for a quote.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p class="section-lead">Want to chat about a project? Hit me up on Discord.</p>
+
+        <div class="discord-embed" id="discordLink" role="button" tabindex="0" title="Click to copy Discord username">
+          <div class="discord-embed-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+              <path d="M20.317 4.369A19.79 19.79 0 0 0 16.558 3.2a.075.075 0 0 0-.079.037c-.21.375-.444.864-.608 1.249a18.27 18.27 0 0 0-5.487 0 12.683 12.683 0 0 0-.617-1.25.077.077 0 0 0-.079-.036A19.736 19.736 0 0 0 5.93 4.37a.07.07 0 0 0-.032.027C2.533 9.045 1.605 13.58 2.06 18.057a.082.082 0 0 0 .031.056 19.9 19.9 0 0 0 5.993 3.029.078.078 0 0 0 .084-.028c.462-.63.873-1.295 1.226-1.994a.076.076 0 0 0-.041-.105 13.1 13.1 0 0 1-1.872-.892.077.077 0 0 1-.008-.128c.126-.094.252-.192.372-.291a.074.074 0 0 1 .078-.01c3.927 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.009c.12.099.246.198.373.292a.077.077 0 0 1-.006.127 12.3 12.3 0 0 1-1.873.893.077.077 0 0 0-.04.105c.36.699.772 1.364 1.225 1.994a.076.076 0 0 0 .084.028 19.84 19.84 0 0 0 6.002-3.029.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.331c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+            </svg>
+          </div>
+          <div class="discord-embed-body">
+            <span class="discord-embed-label">Discord</span>
+            <span class="discord-embed-name">Games.GG</span>
+          </div>
+          <div class="discord-embed-action" aria-hidden="true">Copy</div>
+          <span class="copy-hint" id="copyHint" aria-live="polite"></span>
+        </div>
+
+        <div class="other-links">
+          <a href="https://www.roblox.com/users/1212436866/profile" target="_blank" rel="noopener">Roblox</a>
+          <a href="https://github.com/GamesGG0" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Games.GG. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

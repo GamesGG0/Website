@@ -1,0 +1,21 @@
+# Build / deploy artifacts
+site.tar
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / tooling
+.vscode/
+.idea/
+*.swp
+
+# Claude Code workspace
+.claude/
+
+# Logs
+*.log
+
+# Node (if added later)
+node_modules/

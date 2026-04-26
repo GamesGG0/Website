@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fictional Shenanigans — a Roblox battlegrounds game by Games.GG." />
+  <title>Fictional Shenanigans — Games.GG</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="brand">Games.GG</a>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#works">Works</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- Project Hero -->
+    <section class="hero project-hero">
+      <div class="container">
+        <p class="eyebrow"><a href="index.html#works" class="back-link">&larr; Back to Works</a></p>
+        <h1>Fictional Shenanigans</h1>
+        <p class="tagline">A Roblox Battlegrounds Game</p>
+        <div class="hero-cta">
+          <!-- TODO: replace # with the Roblox game URL once published -->
+          <a href="#" class="btn btn-primary" target="_blank" rel="noopener">Play on Roblox</a>
+          <a href="index.html#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trailer / Featured video -->
+    <section class="section">
+      <div class="container">
+        <div class="project-video">
+          <!-- PLACEHOLDER — replace this video ID with your real Fictional Shenanigans trailer -->
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/jNQXAC9IVRw"
+            title="Fictional Shenanigans trailer"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="section section-alt">
+      <div class="container project-content">
+        <h2>Overview</h2>
+        <p>
+          Fictional Shenanigans is a fast-paced battlegrounds game on Roblox where
+          players pick from a roster of unique characters, each with their own
+          abilities, combos, and ultimates. Drop in, fight, and climb the ranks.
+        </p>
+        <p>
+          <em>(Edit <code>fictional-shenanigans.html</code> to flesh this out — add lore, gameplay loop, your favorite mechanics, etc.)</em>
+        </p>
+
+        <h2>Features</h2>
+        <ul class="feature-list">
+          <li><strong>Custom combat system</strong> — hand-built hitboxes, stun states, and combo chains in pure Lua.</li>
+          <li><strong>Original character roster</strong> — each fighter has unique movesets, animations, and ultimates.</li>
+          <li><strong>Tight movement</strong> — dashes, parries, and aerial play that reward skill.</li>
+          <li><strong>Ranked matchmaking</strong> — climb the ladder solo or with friends.</li>
+          <li><strong>Anti-exploit protections</strong> — server-authoritative validation on key actions.</li>
+        </ul>
+
+        <h2>Tech &amp; Tools</h2>
+        <div class="tags project-tags">
+          <span>Roblox Studio</span>
+          <span>Lua</span>
+          <span>Rojo</span>
+          <span>Custom Combat Framework</span>
+          <span>Server-Authoritative</span>
+        </div>
+
+        <h2>Status</h2>
+        <p>
+          Currently in active development. Public release coming soon — follow my
+          <a href="https://www.roblox.com/users/1212436866/profile" target="_blank" rel="noopener">Roblox profile</a>
+          for updates, or message me on Discord at
+          <strong>Games.GG</strong>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Screenshots (optional) -->
+    <section class="section">
+      <div class="container">
+        <h2>Screenshots</h2>
+        <p class="section-lead">Coming soon &mdash; in-game footage and screenshots will go here.</p>
+        <!--
+          To add screenshots, drop image files into /var/www/gamesgg.net/images/
+          and add an <img> tag below for each, e.g.:
+
+          <div class="screenshot-grid">
+            <img src="/images/fs-1.jpg" alt="Combat scene" loading="lazy" />
+            <img src="/images/fs-2.jpg" alt="Character select" loading="lazy" />
+          </div>
+        -->
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section-alt">
+      <div class="container project-cta">
+        <h2>Want a game like this?</h2>
+        <p class="section-lead">I take Roblox commissions. Hit me up on Discord and let's build something.</p>
+        <a href="index.html#contact" class="btn btn-primary">Contact Me</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Games.GG. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
